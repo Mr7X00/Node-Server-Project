@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Node.js Server</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>NodeServer</h2>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/content">Content</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="page-box">
+            <h1>Contact Us</h1>
+            <p>Have a question about our project? Send us a message.</p>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>© 2026 Node.js Server Development Project</footer>
+
+</body>
+</html>
